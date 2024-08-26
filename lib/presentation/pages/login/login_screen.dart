@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:test_sample/presentation/routers/router.dart';
-import 'package:test_sample/utils/util.dart';
+import 'package:test_sample/utils/utils.dart';
 
 @RoutePage()
 class LoginScreen extends StatelessWidget {

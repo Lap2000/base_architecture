@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_sample/utils/util.dart';
+import 'package:test_sample/utils/utils.dart';
 
 // export file usage
 export 'extensions.dart';

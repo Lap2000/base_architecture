@@ -3,7 +3,7 @@ import 'package:test_sample/presentation/routers/router.dart';
 
 import 'package:test_sample/shared/flavor/app_flavor.dart';
 
-import 'utils/util.dart';
+import 'utils/utils.dart';
 
 part 'main_config.dart';
 
