@@ -164,3 +164,6 @@ Ex: "cd lib/" --> "tree" --> the directory tree is shown in the terminal window
 - make setup
 - make run
 ```
+
+## Clean Architecture ([GO](./.document/clean_architecture.md))
+## Atomic Design ([GO](./.document/atomic_design.md))
