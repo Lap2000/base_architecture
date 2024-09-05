@@ -82,7 +82,7 @@ build_stg:
 	$(info $(yellow) *** [Running] Build APK - Staging ...)
 	flutter build apk lib/main.dart --dart-define=FLAVOR=dev --flavor stg
 
-.PHONY: build_pro
+.PHONY: build_prod
 build_pro:
 	$(info $(yellow) *** [Running] Build APK - Production ...)
-	flutter build apk lib/main.dart --dart-define=FLAVOR=dev --flavor pro
+	flutter build apk lib/main.dart --dart-define=FLAVOR=dev --flavor prod

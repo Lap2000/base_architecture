@@ -54,3 +54,15 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+
+
+# Setup xcode flavor flutter_launcher_icons
+## Then open up the iOS subproject in Xcode and open 
+## Runner.xcodeproj > Build Settings > Search for "Primary App Icon Set Name". 
+## In there, update all the values for each flavor to AppIcon-flavorname 
+## (looks like AppIcon-criocabin and AppIcon-evco for the flavors above). 
+## Then open up the Runner target in that same file and repeat those same steps in there.
+
+# Setup xcode flavor flutter_native_splash
+## Create LaunchScreen<FlavorName>.storyboard for each flavor
+## Copy and replace all flavor storyboard files in Base.lproj -> created storyboard files
